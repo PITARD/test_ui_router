@@ -20,7 +20,7 @@ angular.module('cyrcleoflifeApp', ['ui.router'])
       })
       .state('birth.childhood.study.phd', {
         url: '/phd',
-        template: '<div>Great, What next ?<br><button ui-sref=".phd">phd</button><div ui-view></div></div>'
+        template: '<div>Great, What next ?<br><button ui-sref=".workinglife">workinglife</button><div ui-view></div></div>'
       })
       .state('birth.childhood.career', {
         url: '/career',
